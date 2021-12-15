@@ -6,7 +6,7 @@ This repository is the combination of DYNO (Dynamically Normalized Objective Fun
 
 ## About
 
-This repository including 1) a standalone PODS-DYNO algorithm code; 2) examples using PODS-DYNO with test function; 3) examples using PODS-DYNO with expensive simulaiton problems (e.g., Deflt3D-FLOW). 
+This repository including 1) a standalone PODS-DYNO algorithm code; 2) examples using PODS-DYNO with test function; 3) examples using PODS-DYNO with a toy Deflt3D-FLOW model calibration problem where tempeature and velocity data are included in model calibration. 
 
 ## Install
 

@@ -1,15 +1,13 @@
+
 # DYNO-pods
+
+## About
 
 Dynamically Normalized objective function (DYNO) is a novel objective function (used with optimization algorithms) for multi-variable (i.e., temperature and velocity) model calibration problems. DYNO combines the error metrics of multiple variables into a single objective function by dynamically normalizing each variable's error terms using information available during the search. DYNO is proposed to dynamically adjust the weight of the error of each variable hence balancing the calibration to each variable during optimization search.
 
 This repository is the combination of DYNO (Dynamically Normalized Objective Function) with PODS optimization algorithm. The use of DYNO with PODS needs a few code changes on the origianl PODS (https://github.com/louisXW/PODS): 1) The selection of the best solution; 2) The rebuilt of the surrogate value with the newly calcuated objecitve function value with DYNO at each iteration; 3) The defination of the success and failure search of each iteration. In orginal PODS, an iteration is defined as a success if the objective function vlaue of the best solution found in the iteration imporved at least 0.001 of that in the last iteration. Otherwise it is considered as a failure. In DYNO-pods, an iteration is defined as a success if there is at least one variable (e.g., one component objective function), whoes component objective function value imporved at least 0.001 of that in the last iteration.
 
 DYNO can also be easily utilized with other heuristic optimization methods for multi-variables calibration problems with some modifications on the orignal optimization method, which depend on the structure of an optimization method. 
-
-
-# DYNO-pods
-
-## About
 
 This repository including 1) a standalone DYNO-pods algorithm code; 2) examples using DYNO-pods with test function; 3) examples using DYNO-pods with a toy Deflt3D-FLOW model calibration problem where velocity data at two stations are included in model calibration (this toy example is only for the purpose to demonstrate how to run the DYNO-pods code, users should make changes on the real_function.py accordingly for their own problem). 
 

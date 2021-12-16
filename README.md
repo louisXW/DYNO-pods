@@ -45,3 +45,19 @@ The Delft3D installation manual on both windows and linux links to https://conte
 You may also want to compile the open source on your platform. The instruction links to https://oss.deltares.nl/c/document_library/get_file?uuid=e3bf2d05-f59f-4d4a-8c13-97bcbaa84060&groupId=21119
 
 
+## Citing US
+
+If you use DYNO-pods, please cite the coming DYNO paper and the original PODS paper: Xia, W., Shoemaker, C., Akhtar, T., & Nguyen, M. T. (2021). Efficient parallel surrogate optimization algorithm and framework with application to parameter calibration of computationally expensive three-dimensional hydrodynamic lake PDE models. Environmental Modelling & Software, 135, 104910.https://doi.org/10.1016/j.envsoft.2020.104910
+
+```	
+@article{xia2021efficient,
+  title={Efficient parallel surrogate optimization algorithm and framework with application to parameter calibration of computationally expensive three-dimensional hydrodynamic lake PDE models},
+  author={Xia, Wei and Shoemaker, Christine and Akhtar, Taimoor and Nguyen, Manh-Tuan},
+  journal={Environmental Modelling \& Software},
+  volume={135},
+  pages={104910},
+  year={2021},
+  publisher={Elsevier}
+}	
+```
+

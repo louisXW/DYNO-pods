@@ -9,7 +9,7 @@ This repository is the combination of DYNO (Dynamically Normalized Objective Fun
 
 DYNO can also be easily utilized with other heuristic optimization methods for multi-variables calibration problems with some modifications on the orignal optimization method, which depend on the structure of an optimization method. 
 
-This repository including 1) a standalone DYNO-pods algorithm code; 2) examples using DYNO-pods with test function; 3) examples using DYNO-pods with a toy Deflt3D-FLOW model calibration problem where velocity data at two stations are included in model calibration (this toy example is only for the purpose to demonstrate how to run the DYNO-pods code, users should make changes on the real_function.py accordingly for their own problem). 
+This repository includes 1) a standalone DYNO-pods algorithm code; 2) examples using DYNO-pods with test function; 3) examples using DYNO-pods with a toy Deflt3D-FLOW model calibration problem where velocity data at two stations are included in model calibration (this toy example is only for the purpose to demonstrate how to run the DYNO-pods code, users should make changes on the real_function.py accordingly for their own problem). 
 
 ## Install
 

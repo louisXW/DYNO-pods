@@ -1,0 +1,247 @@
+INFO:root:4 Ansoulate error function 
+Global optimum: f(0,0,...,0) = 0
+INFO:dyno_pods.sot_sync_strategies:=== Start ===
+INFO:root:The 1 iteration 0 simulation called objfunction
+INFO:root:The 1 iteration 1 simulation called objfunction
+INFO:root:The 1 iteration 2 simulation called objfunction
+INFO:root:The 1 iteration 3 simulation called objfunction
+INFO:root:1 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:1 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:1 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:1 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:1 iteration 0 evaluation: finished simulation
+INFO:root:1 iteration 1 evaluation: finished simulation
+INFO:root:1 iteration 3 evaluation: finished simulation
+INFO:root:1 iteration 2 evaluation: finished simulation
+INFO:root:1 iteration 1 evaluation: finished calculating the objection function
+INFO:root:1 iteration 3 evaluation: finished calculating the objection function
+INFO:root:1 iteration 0 evaluation: finished calculating the objection function
+INFO:root:1 iteration 2 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [0.043961822199815787, 0.013319118972157894] @ [ 0.175    0.775    0.00167  0.00083]
+INFO:dyno_pods.sot_sync_strategies:True [0.028706495096921775, 0.0083660478838573516] @ [ 0.25     0.85     0.00125  0.00417]
+INFO:dyno_pods.sot_sync_strategies:True [0.094788338182552015, 0.03860015470090708] @ [ 0.325    0.55     0.00333  0.005  ]
+INFO:dyno_pods.sot_sync_strategies:True [0.01508211182103731, 0.0040218323343983245] @ [ 0.4      0.7      0.00083  0.00375]
+INFO:root:The 2 iteration 0 simulation called objfunction
+INFO:root:The 2 iteration 1 simulation called objfunction
+INFO:root:The 2 iteration 2 simulation called objfunction
+INFO:root:2 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:The 2 iteration 3 simulation called objfunction
+INFO:root:2 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:2 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:2 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:2 iteration 1 evaluation: finished simulation
+INFO:root:2 iteration 0 evaluation: finished simulation
+INFO:root:2 iteration 3 evaluation: finished simulation
+INFO:root:2 iteration 2 evaluation: finished simulation
+INFO:root:2 iteration 3 evaluation: finished calculating the objection function
+INFO:root:2 iteration 2 evaluation: finished calculating the objection function
+INFO:root:2 iteration 0 evaluation: finished calculating the objection function
+INFO:root:2 iteration 1 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [0.083518095753959173, 0.02922440496608936] @ [ 0.475    0.925    0.00292  0.00292]
+INFO:dyno_pods.sot_sync_strategies:True [0.13448147982570338, 0.076379081387442593] @ [ 0.55     1.       0.005    0.00333]
+INFO:dyno_pods.sot_sync_strategies:True [0.0024565928721885706, 0.00067797556578563052] @ [ 0.625    0.175    0.00042  0.00208]
+INFO:dyno_pods.sot_sync_strategies:True [0.071733503469465068, 0.022930902428629371] @ [ 0.7     0.25    0.0025  0.0025]
+INFO:root:The 3 iteration 0 simulation called objfunction
+INFO:root:The 3 iteration 1 simulation called objfunction
+INFO:root:The 3 iteration 2 simulation called objfunction
+INFO:root:3 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:The 3 iteration 3 simulation called objfunction
+INFO:root:3 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:3 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:3 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:3 iteration 0 evaluation: finished simulation
+INFO:root:3 iteration 1 evaluation: finished simulation
+INFO:root:3 iteration 3 evaluation: finished simulation
+INFO:root:3 iteration 2 evaluation: finished simulation
+INFO:root:3 iteration 0 evaluation: finished calculating the objection function
+INFO:root:3 iteration 1 evaluation: finished calculating the objection function
+INFO:root:3 iteration 3 evaluation: finished calculating the objection function
+INFO:root:3 iteration 2 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [0.12525121861570279, 0.068399656241784693] @ [ 0.775    0.475    0.00458  0.00167]
+INFO:dyno_pods.sot_sync_strategies:True [0.058639726749570423, 0.018166891357726728] @ [ 0.85     0.625    0.00208  0.00042]
+INFO:dyno_pods.sot_sync_strategies:True [0.11568121232355448, 0.059430168632351912] @ [ 0.925    0.325    0.00417  0.00125]
+INFO:dyno_pods.sot_sync_strategies:True [0.10553324029884029, 0.049371543718573656] @ [ 1.       0.4      0.00375  0.00458]
+INFO:root:The 4 iteration 0 simulation called objfunction
+INFO:root:The 4 iteration 1 simulation called objfunction
+INFO:root:The 4 iteration 2 simulation called objfunction
+INFO:root:The 4 iteration 3 simulation called objfunction
+INFO:root:4 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:4 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:4 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:4 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:4 iteration 3 evaluation: finished simulation
+INFO:root:4 iteration 1 evaluation: finished simulation
+INFO:root:4 iteration 0 evaluation: finished simulation
+INFO:root:4 iteration 2 evaluation: finished simulation
+INFO:root:4 iteration 3 evaluation: finished calculating the objection function
+INFO:root:4 iteration 0 evaluation: finished calculating the objection function
+INFO:root:4 iteration 2 evaluation: finished calculating the objection function
+INFO:root:4 iteration 1 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [9.7205378853032566e-05, 7.6370030376229041e-05] @ [ 0.16325  0.1228   0.00005  0.00071]
+INFO:dyno_pods.sot_sync_strategies:True [8.6485249745404881e-05, 6.7258560889219603e-05] @ [ 0.38361  0.2978   0.00008  0.00205]
+INFO:dyno_pods.sot_sync_strategies:True [7.6919084638286519e-05, 6.0533075198427818e-05] @ [ 0.54407  0.40924  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [9.2973144506944828e-05, 7.3163392218281308e-05] @ [ 0.2405   0.41126  0.00001  0.00246]
+INFO:root:The 5 iteration 0 simulation called objfunction
+INFO:root:The 5 iteration 1 simulation called objfunction
+INFO:root:The 5 iteration 2 simulation called objfunction
+INFO:root:The 5 iteration 3 simulation called objfunction
+INFO:root:5 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:5 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:5 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:5 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:5 iteration 3 evaluation: finished simulation
+INFO:root:5 iteration 2 evaluation: finished simulation
+INFO:root:5 iteration 0 evaluation: finished simulation
+INFO:root:5 iteration 1 evaluation: finished simulation
+INFO:root:5 iteration 1 evaluation: finished calculating the objection function
+INFO:root:5 iteration 3 evaluation: finished calculating the objection function
+INFO:root:5 iteration 0 evaluation: finished calculating the objection function
+INFO:root:5 iteration 2 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [0.00012198524368870003, 7.1753482399730041e-05] @ [ 0.81208  0.96713  0.0002   0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [7.196218666826876e-05, 5.6634040396040585e-05] @ [ 0.63796  0.74654  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [5.9378232486753657e-05, 4.6725622664184621e-05] @ [ 0.87604  0.81843  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [5.5732295770489258e-05, 4.3843639256842936e-05] @ [ 0.94562  0.64259  0.00001  0.0026 ]
+INFO:root:The 6 iteration 0 simulation called objfunction
+INFO:root:The 6 iteration 1 simulation called objfunction
+INFO:root:The 6 iteration 2 simulation called objfunction
+INFO:root:The 6 iteration 3 simulation called objfunction
+INFO:root:6 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:6 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:6 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:6 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:6 iteration 3 evaluation: finished simulation
+INFO:root:6 iteration 0 evaluation: finished simulation
+INFO:root:6 iteration 2 evaluation: finished simulation
+INFO:root:6 iteration 1 evaluation: finished simulation
+INFO:root:6 iteration 1 evaluation: finished calculating the objection function
+INFO:root:6 iteration 0 evaluation: finished calculating the objection function
+INFO:root:6 iteration 3 evaluation: finished calculating the objection function
+INFO:root:6 iteration 2 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [5.5732295770489258e-05, 4.3843639256842936e-05] @ [ 0.94562  0.10072  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [0.00013779078412028248, 8.0305069230451231e-05] @ [ 0.61505  0.57555  0.00021  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [5.5732295770489258e-05, 4.3843639256842936e-05] @ [ 0.94562  0.97119  0.00001  0.00093]
+INFO:dyno_pods.sot_sync_strategies:True [8.6983174606874617e-05, 6.8430963678712438e-05] @ [ 0.3542   0.64259  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:Reducing sigma
+INFO:root:The 7 iteration 0 simulation called objfunction
+INFO:root:The 7 iteration 1 simulation called objfunction
+INFO:root:The 7 iteration 2 simulation called objfunction
+INFO:root:The 7 iteration 3 simulation called objfunction
+INFO:root:7 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:7 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:7 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:7 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:7 iteration 1 evaluation: finished simulation
+INFO:root:7 iteration 0 evaluation: finished simulation
+INFO:root:7 iteration 2 evaluation: finished simulation
+INFO:root:7 iteration 3 evaluation: finished simulation
+INFO:root:7 iteration 3 evaluation: finished calculating the objection function
+INFO:root:7 iteration 2 evaluation: finished calculating the objection function
+INFO:root:7 iteration 0 evaluation: finished calculating the objection function
+INFO:root:7 iteration 1 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [6.7370332395280612e-05, 5.3018039492897091e-05] @ [ 0.72483  0.64259  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [6.3661802681707952e-05, 5.0089384525520313e-05] @ [ 0.79532  0.73512  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [6.302284411400853e-05, 4.9597034005981787e-05] @ [ 0.80719  0.67671  0.00001  0.00276]
+INFO:dyno_pods.sot_sync_strategies:True [6.1842983478463214e-05, 4.8662497607933804e-05] @ [ 0.82974  0.64259  0.00001  0.00349]
+INFO:dyno_pods.sot_sync_strategies:Reducing sigma
+INFO:root:The 8 iteration 0 simulation called objfunction
+INFO:root:The 8 iteration 1 simulation called objfunction
+INFO:root:The 8 iteration 2 simulation called objfunction
+INFO:root:The 8 iteration 3 simulation called objfunction
+INFO:root:8 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:8 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:8 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:8 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:8 iteration 2 evaluation: finished simulation
+INFO:root:8 iteration 3 evaluation: finished simulation
+INFO:root:8 iteration 1 evaluation: finished simulation
+INFO:root:8 iteration 0 evaluation: finished simulation
+INFO:root:8 iteration 3 evaluation: finished calculating the objection function
+INFO:root:8 iteration 0 evaluation: finished calculating the objection function
+INFO:root:8 iteration 2 evaluation: finished calculating the objection function
+INFO:root:8 iteration 1 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [5.5732295770489258e-05, 4.3843639256842936e-05] @ [ 0.94562  0.5211   0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [5.3549028790921793e-05, 4.2142553706101203e-05] @ [ 0.98645  0.74539  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [5.8068419515438657e-05, 4.5700223653736569e-05] @ [ 0.90088  0.71531  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [5.9358237088561894e-05, 4.6713282126255658e-05] @ [ 0.87642  0.64259  0.00001  0.00196]
+INFO:root:The 9 iteration 0 simulation called objfunction
+INFO:root:The 9 iteration 1 simulation called objfunction
+INFO:root:The 9 iteration 2 simulation called objfunction
+INFO:root:9 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:The 9 iteration 3 simulation called objfunction
+INFO:root:9 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:9 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:9 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:9 iteration 0 evaluation: finished simulation
+INFO:root:9 iteration 2 evaluation: finished simulation
+INFO:root:9 iteration 3 evaluation: finished simulation
+INFO:root:9 iteration 1 evaluation: finished simulation
+INFO:root:9 iteration 3 evaluation: finished calculating the objection function
+INFO:root:9 iteration 2 evaluation: finished calculating the objection function
+INFO:root:9 iteration 1 evaluation: finished calculating the objection function
+INFO:root:9 iteration 0 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [5.3549028790921793e-05, 4.2142553706101203e-05] @ [ 0.98645  0.86039  0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [5.5808661100371087e-05, 4.3895844527174713e-05] @ [ 0.94426  0.8035   0.00001  0.0026 ]
+INFO:dyno_pods.sot_sync_strategies:True [5.3161508355215936e-05, 4.1815173189600653e-05] @ [ 0.99414  0.68306  0.00001  0.00271]
+INFO:dyno_pods.sot_sync_strategies:True [5.3549028790921793e-05, 4.2142553706101203e-05] @ [ 0.98645  0.61406  0.00001  0.0026 ]
+INFO:root:The 10 iteration 0 simulation called objfunction
+INFO:root:The 10 iteration 1 simulation called objfunction
+INFO:root:The 10 iteration 2 simulation called objfunction
+INFO:root:The 10 iteration 3 simulation called objfunction
+INFO:root:10 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:10 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:10 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:10 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:10 iteration 0 evaluation: finished simulation
+INFO:root:10 iteration 3 evaluation: finished simulation
+INFO:root:10 iteration 2 evaluation: finished simulation
+INFO:root:10 iteration 1 evaluation: finished simulation
+INFO:root:10 iteration 0 evaluation: finished calculating the objection function
+INFO:root:10 iteration 3 evaluation: finished calculating the objection function
+INFO:root:10 iteration 2 evaluation: finished calculating the objection function
+INFO:root:10 iteration 1 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [5.8397053434461991e-05, 4.5957689764813253e-05] @ [ 0.89447  0.58552  0.00001  0.00271]
+INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.5525   0.00001  0.00271]
+INFO:dyno_pods.sot_sync_strategies:True [5.3161508355215936e-05, 4.1815173189600653e-05] @ [ 0.99414  0.79597  0.00001  0.00251]
+INFO:dyno_pods.sot_sync_strategies:True [5.5013749525157011e-05, 4.3287420009362902e-05] @ [ 0.95871  0.57739  0.00001  0.00287]
+INFO:dyno_pods.sot_sync_strategies:Reducing sigma
+INFO:root:The 11 iteration 0 simulation called objfunction
+INFO:root:The 11 iteration 1 simulation called objfunction
+INFO:root:The 11 iteration 2 simulation called objfunction
+INFO:root:The 11 iteration 3 simulation called objfunction
+INFO:root:11 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:11 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:11 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:11 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:11 iteration 0 evaluation: finished simulation
+INFO:root:11 iteration 2 evaluation: finished simulation
+INFO:root:11 iteration 3 evaluation: finished simulation
+INFO:root:11 iteration 1 evaluation: finished simulation
+INFO:root:11 iteration 3 evaluation: finished calculating the objection function
+INFO:root:11 iteration 1 evaluation: finished calculating the objection function
+INFO:root:11 iteration 2 evaluation: finished calculating the objection function
+INFO:root:11 iteration 0 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.47754  0.00001  0.00246]
+INFO:dyno_pods.sot_sync_strategies:True [5.3659187039076931e-05, 4.2225489799902693e-05] @ [ 0.98435  0.51473  0.00001  0.00269]
+INFO:dyno_pods.sot_sync_strategies:True [5.6557022870950367e-05, 4.4520443902987001e-05] @ [ 0.92932  0.5525   0.00001  0.00271]
+INFO:dyno_pods.sot_sync_strategies:True [5.4625809841666037e-05, 4.2992134711894293e-05] @ [ 0.96586  0.5525   0.00001  0.00248]
+INFO:dyno_pods.sot_sync_strategies:Reducing sigma
+INFO:root:The 12 iteration 0 simulation called objfunction
+INFO:root:The 12 iteration 1 simulation called objfunction
+INFO:root:The 12 iteration 2 simulation called objfunction
+INFO:root:12 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:The 12 iteration 3 simulation called objfunction
+INFO:root:12 iteration 1 evaluation: finished modify the coefficient file
+INFO:root:12 iteration 2 evaluation: finished modify the coefficient file
+INFO:root:12 iteration 3 evaluation: finished modify the coefficient file
+INFO:root:12 iteration 3 evaluation: finished simulation
+INFO:root:12 iteration 1 evaluation: finished simulation
+INFO:root:12 iteration 2 evaluation: finished simulation
+INFO:root:12 iteration 0 evaluation: finished simulation
+INFO:root:12 iteration 3 evaluation: finished calculating the objection function
+INFO:root:12 iteration 1 evaluation: finished calculating the objection function
+INFO:root:12 iteration 2 evaluation: finished calculating the objection function
+INFO:root:12 iteration 0 evaluation: finished calculating the objection function
+INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.58393  0.00001  0.00271]
+INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.53223  0.00001  0.00271]
+INFO:dyno_pods.sot_sync_strategies:True [5.3918764852309581e-05, 4.2416034587210891e-05] @ [ 0.97973  0.57281  0.00001  0.00271]
+INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.56713  0.00001  0.00259]

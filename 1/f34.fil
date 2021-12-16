@@ -1,0 +1,47 @@
+Domain, Checked : No        
+     Grid                  : f34.grd
+     Grid enclosure        : f34.enc
+     Bathymetry            : f34.dep
+     Dry points            : f34.dry
+     Thin dams             : f34.thd
+
+Time frame, Checked : No        
+
+Processes, Checked : Yes       
+
+Initial conditions, Checked : No        
+
+Boundaries, Checked : Yes       
+     Boundary definitions  : f34.bnd
+     Astronomical flow conditions : none
+     Astronomical corrections : none
+     Harmonic flow conditions : f34.bch
+     QH-relation flow conditions : none
+     Time series flow conditions : none
+     Transport conditions  : f34.bcc
+
+Physical parameters, Checked : Yes       
+     Roughness coefficients : none
+     Hor. viscosity/diffusivity : none
+     Heat flux model data  : f34.tem
+     Sediment data         : none
+     Morphology data       : none
+     Uniform wind data     : f34.wnd
+     Space varying wind data : none
+
+Numerical parameters, Checked : Yes       
+
+Operations, Checked : Yes       
+     Discharge definitions : f34.src
+     Discharge data        : f34.dis
+     Dredging and dumping data : none
+
+Monitoring, Checked : Yes       
+     Observation points    : f34.obs
+     Drogues               : none
+     Cross-sections        : f34.crs
+
+Additional parameters, Checked : Yes       
+
+Output, Checked : No        
+     Fourier analysis data : none

@@ -1,0 +1,13 @@
+table-name           'Boundary Section : 1'
+contents             'Uniform   '
+location             'SEA BOUNDARY        '
+time-function        'non-equidistant'
+reference-time       19900805
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Temperature          end A uniform'       unit '[°C]'
+parameter            'Temperature          end B uniform'       unit '[°C]'
+records-in-table     2
+ 0.0000000e+000  1.4500000e+001  1.3500000e+001
+ 1.5000000e+003  1.4700000e+001  1.3600000e+001

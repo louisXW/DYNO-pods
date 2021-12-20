@@ -50,7 +50,24 @@ You may also want to compile the open source on your platform. The instruction l
 
 ## Citing US
 
-If you use DYNO-pods, please cite the coming DYNO paper and the original PODS paper: Xia, W., Shoemaker, C., Akhtar, T., & Nguyen, M. T. (2021). Efficient parallel surrogate optimization algorithm and framework with application to parameter calibration of computationally expensive three-dimensional hydrodynamic lake PDE models. Environmental Modelling & Software, 135, 104910.https://doi.org/10.1016/j.envsoft.2020.104910
+If you use DYNO-pods, please cite the DYNO paper and the original PODS paper: 
+
+Xia, W., Akhtar, T., and Shoemaker, C. A.: A Novel Objective Function DYNO for Automatic Multi-variable Calibration and Application to Assess Effects of Velocity versus Temperature Data for 3D Lake Models Calibration, Hydrol. Earth Syst. Sci. Discuss. [preprint], https://doi.org/10.5194/hess-2021-601, in review, 2021.
+
+```
+@Article{hess-2021-601,
+AUTHOR = {Xia, W. and Akhtar, T. and Shoemaker, C. A.},
+TITLE = {A Novel Objective Function DYNO for Automatic Multi-variable Calibration and Application to Assess Effects of Velocity versus Temperature Data for 3D Lake Models Calibration},
+JOURNAL = {Hydrology and Earth System Sciences Discussions},
+VOLUME = {2021},
+YEAR = {2021},
+PAGES = {1--24},
+URL = {https://hess.copernicus.org/preprints/hess-2021-601/},
+DOI = {10.5194/hess-2021-601}
+}
+```
+
+Xia, W., Shoemaker, C., Akhtar, T., & Nguyen, M. T. (2021). Efficient parallel surrogate optimization algorithm and framework with application to parameter calibration of computationally expensive three-dimensional hydrodynamic lake PDE models. Environmental Modelling & Software, 135, 104910.https://doi.org/10.1016/j.envsoft.2020.104910
 
 ```	
 @article{xia2021efficient,

@@ -1,5 +1,5 @@
 
-# DYNO-pods
+# DYNO-pods [![DOI](https://zenodo.org/badge/438569036.svg)](https://zenodo.org/badge/latestdoi/438569036)
 
 ## About
 

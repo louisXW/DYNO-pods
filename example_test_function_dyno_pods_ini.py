@@ -89,12 +89,13 @@ def main():
 
     # (5) Use predefined initial experiment design
     #'./ini_exp/ini_fxs.txt' contains a list of decision variables in predefined experiments design
-    # The number of samples should be multples of nsamples (i.e., the number of parallel processors used)
+    # The number of samples should be multiples of nsamples (i.e., the number of parallel processors used)
     # (in this case 24 samples were used)
     # './ini_exp/ini_xs.txt' contains the list of objective functions for the predefined experiments design
     # In this case there are two objectives for each of the 24 samples
-    ini_vals = np.loadtxt('./ini_exp/ini_fxs.txt')
-    ini_xs = np.loadtxt('./ini_exp/ini_xs.txt')
+    ini_vals = np.loadtxt('./ini_exp/ini_fxs.txt') # shape of ini_xs should be (npt, number of objectives);
+    # if there is one objective shape of ini should be (npt, 1) not (npt,)
+    ini_xs = np.loadtxt('./ini_exp/ini_xs.txt') # shape of ini_vals should be (npt, dim)
 
     # (6) Use the multiprocessing-based sychronous strategy without non-bound constraints
     #if use predefined initial experiment design need to specify the ini_xs variable (list of decision

@@ -262,35 +262,69 @@ class SyncStrategyNoConstraintsDYNOPODS(object):
         self.fbest = np.inf
         self.fhat.reset()
 
-        start_sample = self.design.generate_points()
-        assert start_sample.shape[1] == self.data.dim, \
-            "Dimension mismatch between problem and experimental design"
-        assert start_sample.shape[0] % self.nsamples == 0, \
-            "set npts in experimental_design to be multiple of nsamples"
-        start_sample = from_unit_box(start_sample, self.data)
+        if self.ini_xs is None or self.iteration > 1:
+            start_sample = self.design.generate_points()
+            assert start_sample.shape[1] == self.data.dim, \
+                "Dimension mismatch between problem and experimental design"
+            assert start_sample.shape[0] % self.nsamples == 0, \
+                "set npts in experimental_design to be multiple of nsamples"
+            start_sample = from_unit_box(start_sample, self.data)
 
-        params = []
-        simid = []
-        genid = []
-        iteration_pre = self.iteration
-        for j in range(min(start_sample.shape[0], self.maxeval - self.numeval)):
-            start_sample[j, :] = self.proj_fun(start_sample[j, :])  # Project onto feasible region
-            self.iteration = j // self.nsamples + iteration_pre
-            params.append(np.copy(start_sample[j, :]))
-            simid.append(j % self.nsamples)
-            genid.append(self.iteration)
+        else:
+           print("use predefined initial experiment design")
+           start_sample = self.ini_xs
+           assert start_sample.shape[1] == self.data.dim, \
+               "Dimension mismatch between problem and experimental design of ini_xs"
+           assert start_sample.shape[0] % self.nsamples == 0, \
+               "set npts in experimental_design of ini_xs to be multiple of nsamples"
 
-        nprocessors = min(self.nsamples, multiprocessing.cpu_count())
 
-        for batch_id in range(0, min(start_sample.shape[0], self.maxeval - self.numeval) // nprocessors):
-            batch_first = batch_id * nprocessors
-            batch_last = (batch_id + 1) * nprocessors
+        if self.ini_vals is None :
+            params = []
+            simid = []
+            genid = []
+            iteration_pre = self.iteration
+            for j in range(min(start_sample.shape[0], self.maxeval - self.numeval)):
+                start_sample[j, :] = self.proj_fun(start_sample[j, :])  # Project onto feasible region
+                self.iteration = j // self.nsamples + iteration_pre
+                params.append(np.copy(start_sample[j, :]))
+                simid.append(j % self.nsamples)
+                genid.append(self.iteration)
 
-            paramters = zip(params[batch_first: batch_last], simid[batch_first: batch_last], genid[batch_first: batch_last])
-            pool = multiprocessing.Pool(nprocessors)
-            objfuns = pool.map(self.obj_func, paramters)
-            pool.terminate()
-            self.on_complete(objfuns, paramters)
+            nprocessors = min(self.nsamples, multiprocessing.cpu_count())
+
+            for batch_id in range(0, min(start_sample.shape[0], self.maxeval - self.numeval) // nprocessors):
+                batch_first = batch_id * nprocessors
+                batch_last = (batch_id + 1) * nprocessors
+
+                paramters = zip(params[batch_first: batch_last], simid[batch_first: batch_last], genid[batch_first: batch_last])
+                pool = multiprocessing.Pool(nprocessors)
+                objfuns = pool.map(self.obj_func, paramters)
+                pool.terminate()
+                self.on_complete(objfuns, paramters)
+        else:
+            print("use evaluated initial experiment design (skip the computing)")
+            params = []
+            simid = []
+            genid = []
+            objfuns_ini = []
+            iteration_pre = self.iteration
+            for j in range(min(start_sample.shape[0], self.maxeval - self.numeval)):
+                start_sample[j, :] = self.proj_fun(start_sample[j, :])  # Project onto feasible region
+                objfuns_ini.append(self.ini_vals[j])
+                self.iteration = j // self.nsamples + iteration_pre
+                params.append(np.copy(start_sample[j, :]))
+                simid.append(j % self.nsamples)
+                genid.append(self.iteration)
+
+            nprocessors = min(self.nsamples, multiprocessing.cpu_count())
+
+            for batch_id in range(0, min(start_sample.shape[0], self.maxeval - self.numeval) // nprocessors):
+                batch_first = batch_id * nprocessors
+                batch_last = (batch_id + 1) * nprocessors
+                paramters = zip(params[batch_first: batch_last], simid[batch_first: batch_last],
+                                genid[batch_first: batch_last])
+                self.on_complete(objfuns_ini[batch_first: batch_last], paramters)
 
         if self.extra is not None:
             self.sampling.init(np.vstack((start_sample, self.extra)), self.fhat, self.maxeval - self.numeval)

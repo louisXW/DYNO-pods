@@ -1,247 +1,390 @@
-INFO:root:4 Ansoulate error function 
-Global optimum: f(0,0,...,0) = 0
+INFO:root:10-dimensional Ackley function 
+Global optimum: f(0,0,...,0) = 0 
+1-constituents problems
 INFO:dyno_pods.sot_sync_strategies:=== Start ===
-INFO:root:The 1 iteration 0 simulation called objfunction
 INFO:root:The 1 iteration 1 simulation called objfunction
+INFO:root:The 1 iteration 0 simulation called objfunction
 INFO:root:The 1 iteration 2 simulation called objfunction
 INFO:root:The 1 iteration 3 simulation called objfunction
-INFO:root:1 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:1 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:1 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:1 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:1 iteration 0 evaluation: finished simulation
-INFO:root:1 iteration 1 evaluation: finished simulation
-INFO:root:1 iteration 3 evaluation: finished simulation
-INFO:root:1 iteration 2 evaluation: finished simulation
-INFO:root:1 iteration 1 evaluation: finished calculating the objection function
-INFO:root:1 iteration 3 evaluation: finished calculating the objection function
-INFO:root:1 iteration 0 evaluation: finished calculating the objection function
-INFO:root:1 iteration 2 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [0.043961822199815787, 0.013319118972157894] @ [ 0.175    0.775    0.00167  0.00083]
-INFO:dyno_pods.sot_sync_strategies:True [0.028706495096921775, 0.0083660478838573516] @ [ 0.25     0.85     0.00125  0.00417]
-INFO:dyno_pods.sot_sync_strategies:True [0.094788338182552015, 0.03860015470090708] @ [ 0.325    0.55     0.00333  0.005  ]
-INFO:dyno_pods.sot_sync_strategies:True [0.01508211182103731, 0.0040218323343983245] @ [ 0.4      0.7      0.00083  0.00375]
+INFO:dyno_pods.sot_sync_strategies:True [-4.2545883601607795] @ [-13.54167  17.08333  11.25      5.41667  -7.70833  -4.79167  -3.33333  -4.79167  -4.79167   2.5    ]
+INFO:dyno_pods.sot_sync_strategies:True [-4.573689479039173] @ [-12.08333  -3.33333   6.875     9.79167  12.70833 -12.08333   1.04167  14.16667   5.41667  -1.875  ]
+INFO:dyno_pods.sot_sync_strategies:True [-3.2772579724658626] @ [-10.625    14.16667  -7.70833  -0.41667 -12.08333  -7.70833  12.70833   9.79167  -6.25     15.625  ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.926425202267689] @ [ -9.16667   8.33333 -12.08333  -4.79167   2.5      -3.33333  -1.875     1.04167   3.95833   6.875  ]
+INFO:root:The 1 iteration 4 simulation called objfunction
+INFO:root:The 1 iteration 5 simulation called objfunction
+INFO:root:The 1 iteration 6 simulation called objfunction
+INFO:root:The 1 iteration 7 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-2.5732320888082496] @ [ -7.70833  20.      -13.54167   8.33333   9.79167   2.5      -9.16667  15.625    15.625    -7.70833]
+INFO:dyno_pods.sot_sync_strategies:True [-4.815875046270682] @ [ -6.25      6.875     1.04167  18.54167  -1.875    -1.875   -12.08333  -6.25     -3.33333 -12.08333]
+INFO:dyno_pods.sot_sync_strategies:True [-2.603210487299852] @ [ -4.79167  18.54167  -3.33333  17.08333 -13.54167  -0.41667  17.08333  17.08333  -7.70833  -3.33333]
+INFO:dyno_pods.sot_sync_strategies:True [-3.8653066694421465] @ [ -3.33333  12.70833  -6.25    -13.54167  -0.41667  17.08333   2.5      -1.875    -0.41667  12.70833]
+INFO:root:The 1 iteration 8 simulation called objfunction
+INFO:root:The 1 iteration 9 simulation called objfunction
+INFO:root:The 1 iteration 10 simulation called objfunction
+INFO:root:The 1 iteration 11 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-3.087821697869396] @ [ -1.875    15.625     2.5      -9.16667  17.08333   5.41667  14.16667 -12.08333  17.08333   5.41667]
+INFO:dyno_pods.sot_sync_strategies:True [-3.0563200865639315] @ [ -0.41667   3.95833  17.08333  14.16667  15.625    -9.16667   6.875    -0.41667 -13.54167 -13.54167]
+INFO:dyno_pods.sot_sync_strategies:True [-4.750721578033105] @ [  1.04167  -4.79167  -9.16667   3.95833  -4.79167  12.70833  11.25      3.95833 -12.08333  17.08333]
+INFO:dyno_pods.sot_sync_strategies:True [-4.134917296366428] @ [  2.5       5.41667   8.33333  -6.25      5.41667 -13.54167 -13.54167 -13.54167  -1.875    -4.79167]
+INFO:root:The 1 iteration 12 simulation called objfunction
+INFO:root:The 1 iteration 13 simulation called objfunction
+INFO:root:The 1 iteration 14 simulation called objfunction
+INFO:root:The 1 iteration 15 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-3.4146897865188723] @ [ 3.95833  1.04167 -1.875   12.70833  1.04167 20.      20.      20.       8.33333 11.25   ]
+INFO:dyno_pods.sot_sync_strategies:True [-3.1640361617122097] @ [  5.41667  11.25     15.625     2.5      11.25     -6.25     -4.79167   2.5      18.54167 -10.625  ]
+INFO:dyno_pods.sot_sync_strategies:True [-2.912256216724698] @ [  6.875     2.5     -10.625    -7.70833  -9.16667  15.625    -0.41667   6.875    20.       20.     ]
+INFO:dyno_pods.sot_sync_strategies:True [-3.5464541393062006] @ [  8.33333  -9.16667   3.95833  15.625   -10.625     1.04167  -7.70833  18.54167 -10.625     1.04167]
+INFO:root:The 1 iteration 16 simulation called objfunction
+INFO:root:The 1 iteration 17 simulation called objfunction
+INFO:root:The 1 iteration 18 simulation called objfunction
+INFO:root:The 1 iteration 19 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-3.875099666684994] @ [  9.79167  -6.25     12.70833  20.        6.875   -10.625     3.95833   8.33333   6.875    -6.25   ]
+INFO:dyno_pods.sot_sync_strategies:True [-2.9561924087546783] @ [ 11.25    -12.08333   9.79167 -10.625    20.        6.875   -10.625   -10.625    14.16667   9.79167]
+INFO:dyno_pods.sot_sync_strategies:True [-2.510132939965489] @ [ 12.70833  -0.41667   5.41667 -12.08333   8.33333   8.33333  18.54167  12.70833   9.79167  18.54167]
+INFO:dyno_pods.sot_sync_strategies:True [-3.117797483870782] @ [ 14.16667 -13.54167  20.       -1.875    -3.33333   3.95833  15.625    -9.16667  -9.16667  14.16667]
+INFO:root:The 1 iteration 20 simulation called objfunction
+INFO:root:The 1 iteration 21 simulation called objfunction
+INFO:root:The 1 iteration 22 simulation called objfunction
+INFO:root:The 1 iteration 23 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-3.6351463752849607] @ [15.625   -1.875   18.54167 11.25     3.95833  9.79167  8.33333  5.41667  2.5     -0.41667]
+INFO:dyno_pods.sot_sync_strategies:True [-2.9303660630241053] @ [17.08333 -7.70833 14.16667  6.875   18.54167 14.16667 -6.25    -3.33333 12.70833 -9.16667]
+INFO:dyno_pods.sot_sync_strategies:True [-3.4163560221347424] @ [18.54167  9.79167 -0.41667 -3.33333 -6.25    18.54167  5.41667 -7.70833  1.04167  8.33333]
+INFO:dyno_pods.sot_sync_strategies:True [-3.561507279214236] @ [ 20.      -10.625    -4.79167   1.04167  14.16667  11.25      9.79167  11.25     11.25      3.95833]
 INFO:root:The 2 iteration 0 simulation called objfunction
-INFO:root:The 2 iteration 1 simulation called objfunction
 INFO:root:The 2 iteration 2 simulation called objfunction
-INFO:root:2 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:The 2 iteration 1 simulation called objfunction
+INFO:root:The 2 iteration 6 simulation called objfunction
+INFO:root:The 2 iteration 4 simulation called objfunction
+INFO:root:The 2 iteration 8 simulation called objfunction
 INFO:root:The 2 iteration 3 simulation called objfunction
-INFO:root:2 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:2 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:2 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:2 iteration 1 evaluation: finished simulation
-INFO:root:2 iteration 0 evaluation: finished simulation
-INFO:root:2 iteration 3 evaluation: finished simulation
-INFO:root:2 iteration 2 evaluation: finished simulation
-INFO:root:2 iteration 3 evaluation: finished calculating the objection function
-INFO:root:2 iteration 2 evaluation: finished calculating the objection function
-INFO:root:2 iteration 0 evaluation: finished calculating the objection function
-INFO:root:2 iteration 1 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [0.083518095753959173, 0.02922440496608936] @ [ 0.475    0.925    0.00292  0.00292]
-INFO:dyno_pods.sot_sync_strategies:True [0.13448147982570338, 0.076379081387442593] @ [ 0.55     1.       0.005    0.00333]
-INFO:dyno_pods.sot_sync_strategies:True [0.0024565928721885706, 0.00067797556578563052] @ [ 0.625    0.175    0.00042  0.00208]
-INFO:dyno_pods.sot_sync_strategies:True [0.071733503469465068, 0.022930902428629371] @ [ 0.7     0.25    0.0025  0.0025]
+INFO:root:The 2 iteration 9 simulation called objfunction
+INFO:root:The 2 iteration 5 simulation called objfunction
+INFO:root:The 2 iteration 7 simulation called objfunction
+INFO:root:The 2 iteration 10 simulation called objfunction
+INFO:root:The 2 iteration 12 simulation called objfunction
+INFO:root:The 2 iteration 14 simulation called objfunction
+INFO:root:The 2 iteration 16 simulation called objfunction
+INFO:root:The 2 iteration 11 simulation called objfunction
+INFO:root:The 2 iteration 15 simulation called objfunction
+INFO:root:The 2 iteration 13 simulation called objfunction
+INFO:root:The 2 iteration 17 simulation called objfunction
+INFO:root:The 2 iteration 18 simulation called objfunction
+INFO:root:The 2 iteration 20 simulation called objfunction
+INFO:root:The 2 iteration 22 simulation called objfunction
+INFO:root:The 2 iteration 19 simulation called objfunction
+INFO:root:The 2 iteration 21 simulation called objfunction
+INFO:root:The 2 iteration 23 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-2.9251037090887033] @ [-11.24435   3.30741 -14.46391   4.69403 -11.30887  -2.66527  19.1416   -6.69963  18.72264   0.19567]
+INFO:dyno_pods.sot_sync_strategies:True [-3.5505730780408116] @ [-14.84133  -8.53152 -13.99866  10.55387   5.83724 -11.23036 -11.89269 -10.90576  -5.27539   6.52202]
+INFO:dyno_pods.sot_sync_strategies:True [-5.376291110993295] @ [-11.38845  -6.71637 -14.27361 -11.13273  -3.9703   -4.28457  -6.22451  -3.14905  -1.60909  -2.87738]
+INFO:dyno_pods.sot_sync_strategies:True [-5.4927559217278485] @ [-14.38884  -5.20548 -10.573    -4.46008   1.16879  -9.95225  -0.83525  -4.85452   3.42254   5.52958]
+INFO:dyno_pods.sot_sync_strategies:True [-3.5391486442740114] @ [-13.99633  -9.84822  -7.57644  18.30958  -7.83416   6.57382   1.58929   2.31572   5.45524  11.50028]
+INFO:dyno_pods.sot_sync_strategies:True [-5.01535053034182] @ [-10.94298  -8.93842  -9.14411   3.83036   9.69466  13.78465  12.04538  -9.80773   0.03591   5.00593]
+INFO:dyno_pods.sot_sync_strategies:True [-3.8921816676204486] @ [-13.58997  -6.00878 -14.51534   3.27978  -4.92066 -12.81009 -11.64912  -6.89126  12.19124  -2.22728]
+INFO:dyno_pods.sot_sync_strategies:True [-5.952587692028754] @ [-11.31194  -0.23673 -13.98105  -6.59235   1.17454  -1.23418   0.66436 -10.8507    0.19643  -3.77971]
+INFO:dyno_pods.sot_sync_strategies:True [-4.07971292396028] @ [  6.79241   3.27178  -5.81173 -14.2283    8.78148 -12.50675   9.86173  10.78961   7.59123  -9.88595]
+INFO:dyno_pods.sot_sync_strategies:True [-4.134620984320118] @ [-11.02505  -3.88343  -6.08801 -13.77661 -12.5459   -0.84973   1.39572  -2.13796  19.38287  -2.76461]
+INFO:dyno_pods.sot_sync_strategies:True [-4.420214022327839] @ [-13.52371  -6.4312  -14.84158  -7.96118   6.19959  -2.66307  -2.88278   2.34685  12.38035  -5.76003]
+INFO:dyno_pods.sot_sync_strategies:True [-4.338641257239035] @ [-14.48225  -6.61237 -14.98187 -10.76711   3.09314 -10.40104  -3.46024   4.86763   3.08184  -4.57971]
+INFO:dyno_pods.sot_sync_strategies:True [-3.5968847753089697] @ [ 15.14732   3.38266 -13.12205 -10.87877 -12.13438  -6.3022   -9.48734  -4.0559   13.55242   6.32864]
+INFO:dyno_pods.sot_sync_strategies:True [-5.046121602251091] @ [ -5.25485 -11.18649  -6.09458   2.63587  -8.95214   5.53866  -1.77258 -12.62808  -3.97826  12.65422]
+INFO:dyno_pods.sot_sync_strategies:True [-5.161707321521918] @ [ -6.09916 -10.69841 -14.76965   0.8143    2.27881  -2.30602  -7.98707 -11.30782   7.3264    4.96695]
+INFO:dyno_pods.sot_sync_strategies:True [-4.737759827037397] @ [-13.15671   2.33046 -13.84679 -10.6774    3.11842  -9.78913  -4.23918  -9.80217   8.79516   1.0283 ]
+INFO:dyno_pods.sot_sync_strategies:True [-4.010095147239797] @ [  5.88005   4.11799  -7.27993 -14.07958   9.46571 -12.83432  13.00992 -13.37606  -3.06903  12.07068]
+INFO:dyno_pods.sot_sync_strategies:True [-5.930616430570122] @ [ -0.26682  -5.84255 -14.3048   -4.04149 -13.15413   0.82973   8.3307    3.76      5.07825   4.0573 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.318207695508585] @ [-11.32779  -8.93925 -10.46361  -4.95597  -2.23877  -4.21099  -2.99117  -3.47857  13.68671   2.60199]
+INFO:dyno_pods.sot_sync_strategies:True [-7.112777918088739] @ [-13.01867  -3.25606 -11.92427  -0.76146  -1.22459   0.12677  -1.32423  -7.04903   0.98166   5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-4.0082100846158895] @ [ -5.03284   8.97695 -13.73071   5.33661 -14.40477  13.27711  -8.97142   2.73735  11.10074  -4.5925 ]
+INFO:dyno_pods.sot_sync_strategies:True [-4.666081972215301] @ [-14.61588   8.88913  -9.31869   1.9388  -13.56246  -8.17035   5.91511  -3.71587   0.15845  -8.79526]
+INFO:dyno_pods.sot_sync_strategies:True [-6.6197651702424665] @ [ -7.53625  -5.5289  -11.26109   0.85957  -6.38026  -7.39499   3.99316  -4.8699    7.05783  -1.79977]
+INFO:dyno_pods.sot_sync_strategies:True [-5.783833848684031] @ [-12.44347  -1.6548  -10.58265  -0.17608  -8.66163  -8.82017  -0.00265  -6.64559   3.26311   0.5032 ]
 INFO:root:The 3 iteration 0 simulation called objfunction
-INFO:root:The 3 iteration 1 simulation called objfunction
+INFO:root:The 3 iteration 4 simulation called objfunction
 INFO:root:The 3 iteration 2 simulation called objfunction
-INFO:root:3 iteration 0 evaluation: finished modify the coefficient file
+INFO:root:The 3 iteration 6 simulation called objfunction
+INFO:root:The 3 iteration 5 simulation called objfunction
 INFO:root:The 3 iteration 3 simulation called objfunction
-INFO:root:3 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:3 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:3 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:3 iteration 0 evaluation: finished simulation
-INFO:root:3 iteration 1 evaluation: finished simulation
-INFO:root:3 iteration 3 evaluation: finished simulation
-INFO:root:3 iteration 2 evaluation: finished simulation
-INFO:root:3 iteration 0 evaluation: finished calculating the objection function
-INFO:root:3 iteration 1 evaluation: finished calculating the objection function
-INFO:root:3 iteration 3 evaluation: finished calculating the objection function
-INFO:root:3 iteration 2 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [0.12525121861570279, 0.068399656241784693] @ [ 0.775    0.475    0.00458  0.00167]
-INFO:dyno_pods.sot_sync_strategies:True [0.058639726749570423, 0.018166891357726728] @ [ 0.85     0.625    0.00208  0.00042]
-INFO:dyno_pods.sot_sync_strategies:True [0.11568121232355448, 0.059430168632351912] @ [ 0.925    0.325    0.00417  0.00125]
-INFO:dyno_pods.sot_sync_strategies:True [0.10553324029884029, 0.049371543718573656] @ [ 1.       0.4      0.00375  0.00458]
+INFO:root:The 3 iteration 7 simulation called objfunction
+INFO:root:The 3 iteration 8 simulation called objfunction
+INFO:root:The 3 iteration 9 simulation called objfunction
+INFO:root:The 3 iteration 10 simulation called objfunction
+INFO:root:The 3 iteration 12 simulation called objfunction
+INFO:root:The 3 iteration 13 simulation called objfunction
+INFO:root:The 3 iteration 11 simulation called objfunction
+INFO:root:The 3 iteration 14 simulation called objfunction
+INFO:root:The 3 iteration 16 simulation called objfunction
+INFO:root:The 3 iteration 1 simulation called objfunction
+INFO:root:The 3 iteration 18 simulation called objfunction
+INFO:root:The 3 iteration 19 simulation called objfunction
+INFO:root:The 3 iteration 17 simulation called objfunction
+INFO:root:The 3 iteration 15 simulation called objfunction
+INFO:root:The 3 iteration 22 simulation called objfunction
+INFO:root:The 3 iteration 20 simulation called objfunction
+INFO:root:The 3 iteration 23 simulation called objfunction
+INFO:root:The 3 iteration 21 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-9.293619530331371] @ [ 8.19007 -7.58516  2.13859 -0.76146  5.20856  0.12677 -1.32423  3.35145 -1.05637  5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-9.75308898779136] @ [  0.96372  -3.25606 -11.92427   2.17399  -1.22459   0.12677  -1.32423   2.9375    0.98166   5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-10.631836839201586] @ [-6.44523 -3.25606 -8.75423 -0.76146 -1.22459  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-9.739233383216812] @ [ -4.92413   3.27817 -11.92427  -0.76146  -1.22459   0.12677  -1.32423  -1.19513   0.98166   3.93644]
+INFO:dyno_pods.sot_sync_strategies:True [-6.381471823788402] @ [-13.01867  -3.25606   7.99232  -0.76146  13.66973   0.12677  -1.32423  -3.2228    0.98166   5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-6.346927043418354] @ [ -9.38037   5.27024   2.85392   0.807    -1.22459  12.76921  -2.55512 -11.70071   1.02585   1.751  ]
+INFO:dyno_pods.sot_sync_strategies:True [-10.020415729997143] @ [-6.83571  0.36673 -6.7625   1.01438 -1.22459  0.12677 -1.32423 -7.04903  0.98166  5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-9.498572992951553] @ [ -5.42563  -0.69462 -11.92427  -0.76146   2.86805   0.12677  -1.32423  -1.30418   0.98166   0.59905]
+INFO:dyno_pods.sot_sync_strategies:True [-4.644308149431423] @ [-13.01867 -13.87557 -11.92427   7.80963  -1.22459   1.80753   7.94131  12.96783  -9.08671   5.49265]
+INFO:dyno_pods.sot_sync_strategies:True [-5.992759933968734] @ [-13.85691   1.57793  -0.60451  15.00174   6.75074   0.12677  -1.32423  -2.32066   0.98166   2.43062]
+INFO:dyno_pods.sot_sync_strategies:True [-9.402422824466601] @ [-8.53468 -3.25606 -6.21643 -0.76146  2.3659   2.79029 -1.32423 -0.76783  0.98166  6.71134]
+INFO:dyno_pods.sot_sync_strategies:True [-8.396785091383752] @ [ -7.88168   1.73445 -11.92427   1.68532   0.5401    0.12677  -1.32423  -0.25841   3.95446   5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-5.3213081599507595] @ [-13.01867  -6.51576   8.64323  -0.76146 -12.91952   0.12677  10.13572  -2.64367   0.98166   6.53661]
+INFO:dyno_pods.sot_sync_strategies:True [-7.367697834990884] @ [  5.72878  -3.25606 -10.14572  -2.97913  -2.76801   0.12677   8.72474  -7.04903  -5.4854    5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-9.020934077972766] @ [ -3.96989  -3.25606 -11.92427  -0.76146  -1.22459   0.12677   4.5959   -2.75967   0.98166   5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-9.46610362094887] @ [-4.26345 -3.25606 -9.55818  2.54083 -1.22459  0.12677 -1.32423 -4.76281  0.98166  5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-4.278523569354049] @ [-13.01867   1.80945 -11.92427  -0.76146  18.1786    0.12677 -11.18195  -7.04903 -10.5848    5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-9.49244181668221] @ [ 7.05459 -3.25606 -8.6071  -0.76146 -1.22459  0.12677 -1.32423 -7.04903  0.98166 -3.88078]
+INFO:dyno_pods.sot_sync_strategies:True [-8.555212162292362] @ [ -7.85376  -3.25606 -11.92427  -0.76146  -1.22459   4.63573  -1.32423  -3.15734   0.98166   3.08967]
+INFO:dyno_pods.sot_sync_strategies:True [-10.209417165910365] @ [-6.99977  3.82729 -6.68477 -0.76146 -1.22459  0.12677 -1.32423 -4.80584  0.98166  5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-4.672826075732605] @ [-13.01867  -6.38963 -11.92427  11.31634  -1.22459   0.12677  -1.32423  -7.04903 -14.14415  -5.56318]
+INFO:dyno_pods.sot_sync_strategies:True [-6.9492165451091275] @ [ -5.3651    6.91569 -11.92427   6.59202   2.01704   0.12677  -1.32423  -7.04903  -8.00546   5.27565]
+INFO:dyno_pods.sot_sync_strategies:True [-9.083913471170188] @ [ -8.86025  -4.63046 -10.07797   3.16305  -1.22459   1.07096   1.91984  -0.9115    0.98166   4.37504]
+INFO:dyno_pods.sot_sync_strategies:True [-8.73131078176987] @ [ -6.47861  -3.25606 -11.92427  -0.76146  -1.22459   0.12677   2.60634  -0.22179   0.98166   5.27565]
+INFO:root:The 4 iteration 2 simulation called objfunction
+INFO:root:The 4 iteration 4 simulation called objfunction
 INFO:root:The 4 iteration 0 simulation called objfunction
 INFO:root:The 4 iteration 1 simulation called objfunction
-INFO:root:The 4 iteration 2 simulation called objfunction
+INFO:root:The 4 iteration 5 simulation called objfunction
+INFO:root:The 4 iteration 6 simulation called objfunction
 INFO:root:The 4 iteration 3 simulation called objfunction
-INFO:root:4 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:4 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:4 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:4 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:4 iteration 3 evaluation: finished simulation
-INFO:root:4 iteration 1 evaluation: finished simulation
-INFO:root:4 iteration 0 evaluation: finished simulation
-INFO:root:4 iteration 2 evaluation: finished simulation
-INFO:root:4 iteration 3 evaluation: finished calculating the objection function
-INFO:root:4 iteration 0 evaluation: finished calculating the objection function
-INFO:root:4 iteration 2 evaluation: finished calculating the objection function
-INFO:root:4 iteration 1 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [9.7205378853032566e-05, 7.6370030376229041e-05] @ [ 0.16325  0.1228   0.00005  0.00071]
-INFO:dyno_pods.sot_sync_strategies:True [8.6485249745404881e-05, 6.7258560889219603e-05] @ [ 0.38361  0.2978   0.00008  0.00205]
-INFO:dyno_pods.sot_sync_strategies:True [7.6919084638286519e-05, 6.0533075198427818e-05] @ [ 0.54407  0.40924  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [9.2973144506944828e-05, 7.3163392218281308e-05] @ [ 0.2405   0.41126  0.00001  0.00246]
+INFO:root:The 4 iteration 8 simulation called objfunction
+INFO:root:The 4 iteration 9 simulation called objfunction
+INFO:root:The 4 iteration 10 simulation called objfunction
+INFO:root:The 4 iteration 7 simulation called objfunction
+INFO:root:The 4 iteration 12 simulation called objfunction
+INFO:root:The 4 iteration 11 simulation called objfunction
+INFO:root:The 4 iteration 13 simulation called objfunction
+INFO:root:The 4 iteration 14 simulation called objfunction
+INFO:root:The 4 iteration 16 simulation called objfunction
+INFO:root:The 4 iteration 15 simulation called objfunction
+INFO:root:The 4 iteration 17 simulation called objfunction
+INFO:root:The 4 iteration 18 simulation called objfunction
+INFO:root:The 4 iteration 20 simulation called objfunction
+INFO:root:The 4 iteration 22 simulation called objfunction
+INFO:root:The 4 iteration 19 simulation called objfunction
+INFO:root:The 4 iteration 21 simulation called objfunction
+INFO:root:The 4 iteration 23 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-8.247885281388067] @ [ -6.44523  -3.25606   8.82144  -0.76146  -1.22459   0.12677   1.3496   -0.90418   0.98166 -11.9879 ]
+INFO:dyno_pods.sot_sync_strategies:True [-11.545812406274086] @ [ 2.53426 -3.25606 -1.93068 -0.76146 -1.22459  4.78437  1.3496   4.6646   0.98166 -5.77536]
+INFO:dyno_pods.sot_sync_strategies:True [-16.047977900459152] @ [-3.56928  0.08934 -1.37282 -0.76146 -1.22459  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-15.992209271843059] @ [-1.04903 -3.25606 -2.27789 -0.76146 -1.22459  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.173899108875334] @ [-6.44523 -3.25606 -0.56936 -0.76146  9.43654  0.12677 12.73082 16.16645  0.98166  4.4586 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.4131749518777115] @ [ -6.44523  -3.25606  -1.34746  -3.0794   -1.22459   0.12677   1.3496    5.90351 -14.46273  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-13.581916169361435] @ [-2.05697  3.41381 -6.05742 -0.76146 -1.22459  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-15.152151321625468] @ [-2.78915 -3.25606 -2.5639  -0.76146 -1.22459  0.12677 -0.74242 -1.03174 -0.62872 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.195952227596906] @ [-6.44523 -3.25606 -8.75423 -0.76146 -1.22459  8.30823 19.22955 -1.03174 -0.31973 -6.91589]
+INFO:dyno_pods.sot_sync_strategies:True [-5.946125905600189] @ [ -6.44523   3.36177  -8.75423  -0.76146  -1.22459   0.12677   1.3496   12.97165   0.98166 -13.60983]
+INFO:dyno_pods.sot_sync_strategies:True [-16.289074780311534] @ [ 1.15084  1.35541 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174 -2.66278 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-15.925322372654163] @ [-0.73501 -3.25606 -1.76157  1.80545 -1.22459  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.28173195738014] @ [ 5.27474 -3.25606 -8.75423 -0.76146 -1.22459 -2.68694 18.28218 10.47584  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.52465207474333] @ [-6.44523 -3.25606 -1.59869  1.72631 -1.22459  0.12677  1.3496  15.19404 -3.10777 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-13.532642358799665] @ [-0.73061 -3.25606 -2.35811 -0.76146 -1.22459  5.46025  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-15.540411857094412] @ [-2.27224 -3.25606 -2.78287 -0.76146  0.03134  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.470953914971718] @ [ -6.44523  -3.25606  -8.75423  -0.76146 -14.15467   0.12677  -7.56775  -1.03174   0.98166 -13.63463]
+INFO:dyno_pods.sot_sync_strategies:True [-7.848940781268194] @ [ 5.20436 -3.25606 -8.75423  3.45255  6.68493  0.12677  7.50425  6.54612  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-12.165730700800383] @ [-0.97365 -1.15546 -8.75423 -0.76146 -1.22459  0.12677  1.3496   3.09178  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-15.880909772747044] @ [-2.0004  -3.25606 -2.14545 -0.76146 -1.22459  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.061947398945069] @ [-6.44523 -3.25606  0.98228  7.35279 -1.22459  0.12677  1.3496  -1.03174 18.56824 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.348409577534692] @ [-7.0141  -3.25606 -0.69806  8.07533 -1.22459  0.12677 15.30075 -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-13.823090370910117] @ [-1.8429  -3.25606 -5.55975 -0.76146 -1.22459  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-15.31562233286288] @ [-3.16863 -3.25606 -1.66705 -0.76146 -1.22459  0.12677  1.3496  -1.03174  0.98166 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:Increasing sigma
 INFO:root:The 5 iteration 0 simulation called objfunction
-INFO:root:The 5 iteration 1 simulation called objfunction
+INFO:root:The 5 iteration 4 simulation called objfunction
 INFO:root:The 5 iteration 2 simulation called objfunction
+INFO:root:The 5 iteration 1 simulation called objfunction
 INFO:root:The 5 iteration 3 simulation called objfunction
-INFO:root:5 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:5 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:5 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:5 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:5 iteration 3 evaluation: finished simulation
-INFO:root:5 iteration 2 evaluation: finished simulation
-INFO:root:5 iteration 0 evaluation: finished simulation
-INFO:root:5 iteration 1 evaluation: finished simulation
-INFO:root:5 iteration 1 evaluation: finished calculating the objection function
-INFO:root:5 iteration 3 evaluation: finished calculating the objection function
-INFO:root:5 iteration 0 evaluation: finished calculating the objection function
-INFO:root:5 iteration 2 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [0.00012198524368870003, 7.1753482399730041e-05] @ [ 0.81208  0.96713  0.0002   0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [7.196218666826876e-05, 5.6634040396040585e-05] @ [ 0.63796  0.74654  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [5.9378232486753657e-05, 4.6725622664184621e-05] @ [ 0.87604  0.81843  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [5.5732295770489258e-05, 4.3843639256842936e-05] @ [ 0.94562  0.64259  0.00001  0.0026 ]
+INFO:root:The 5 iteration 6 simulation called objfunction
+INFO:root:The 5 iteration 5 simulation called objfunction
+INFO:root:The 5 iteration 7 simulation called objfunction
+INFO:root:The 5 iteration 10 simulation called objfunction
+INFO:root:The 5 iteration 12 simulation called objfunction
+INFO:root:The 5 iteration 14 simulation called objfunction
+INFO:root:The 5 iteration 11 simulation called objfunction
+INFO:root:The 5 iteration 13 simulation called objfunction
+INFO:root:The 5 iteration 8 simulation called objfunction
+INFO:root:The 5 iteration 15 simulation called objfunction
+INFO:root:The 5 iteration 16 simulation called objfunction
+INFO:root:The 5 iteration 18 simulation called objfunction
+INFO:root:The 5 iteration 17 simulation called objfunction
+INFO:root:The 5 iteration 20 simulation called objfunction
+INFO:root:The 5 iteration 19 simulation called objfunction
+INFO:root:The 5 iteration 9 simulation called objfunction
+INFO:root:The 5 iteration 21 simulation called objfunction
+INFO:root:The 5 iteration 22 simulation called objfunction
+INFO:root:The 5 iteration 23 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-5.712009542220895] @ [ 10.18885   4.78699  14.38411  -0.76146  -1.22459 -13.12026   1.3496   -1.03174  -2.66278  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-9.926784557136557] @ [ 1.15084  1.35541 10.88596 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  5.73895 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-16.118881108377238] @ [ 1.15084  1.35541  2.35133 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  2.10467 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.256479089468566] @ [ 1.15084  1.35541  0.60751 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  0.40356 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.996027352638839] @ [  1.15084   1.35541  -0.62876  -0.76146  18.59883 -10.96104  -0.92962  -1.03174  -2.66278  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-9.083808498883826] @ [ 1.15084  1.35541  4.81434 10.14445 -1.22459 -8.28303  1.3496  -1.03174 -3.10044 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.103074997498364] @ [-1.25146  1.35541 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  1.13656 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-16.85523748525536] @ [ 1.15084  1.35541  1.87642 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  0.4973  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.045461854242916] @ [  1.15084  18.52202  -3.61394  -0.76146 -14.21403   3.56313   3.16423  -1.03174  -7.00372  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.769434938743613] @ [  1.15084  10.42623  -0.62876  -0.76146  -1.22459  -0.57805 -13.71657   6.48108  -2.66278  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-16.052418423459283] @ [ 1.15084  1.35541 -0.62876 -0.76146 -1.22459 -2.7282   1.3496  -1.03174  1.83648 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.507727986781816] @ [-0.05577  1.35541 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  0.7157  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.739537760130666] @ [ 14.209     1.35541  -0.62876   9.66507  -8.03942  -0.57805 -10.62652  -1.03174  -2.66278  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-8.91069006672639] @ [  1.15084   1.35541   5.86362  -0.76146  -1.22459 -10.12881   3.73544  -1.03174  -2.66278  -7.60663]
+INFO:dyno_pods.sot_sync_strategies:True [-17.107500389996837] @ [ 1.15084  1.35541 -0.62876 -0.76146 -0.2894  -0.57805  0.49921 -1.03174  1.34608 -1.48605]
+INFO:dyno_pods.sot_sync_strategies:True [-16.29027212073231] @ [ 1.15084  1.35541  1.38508 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  2.34426 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.1266137891419765] @ [16.66558  1.35541  3.26438 -0.76146 -1.22459  0.56425 16.74783 -1.03174 -1.50331 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-8.083889704510105] @ [  1.15084   1.35541   6.5856   -0.76146 -11.15685  -0.57805   1.3496   -1.03174  -2.66278   8.57349]
+INFO:dyno_pods.sot_sync_strategies:True [-17.32741645107418] @ [-0.78375  1.35541 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174 -0.65394 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.658050489849813] @ [ 0.08443  1.35541 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.460338715159338] @ [ 1.15084  1.35541  2.55617 -0.76146 13.20212 18.23491 -5.92574 -1.03174 -2.66278 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.630450678172603] @ [  1.15084   1.35541  -0.62876  -0.76146  -1.22459 -13.44062  -9.71859  -1.03174  -2.66278  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-16.75251787568899] @ [ 0.61637  1.35541 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  2.11551 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-16.0384108516268] @ [ 1.15084  1.35541  2.71562 -0.76146 -1.22459 -0.57805  1.3496  -1.03174  1.9364  -0.4713 ]
 INFO:root:The 6 iteration 0 simulation called objfunction
-INFO:root:The 6 iteration 1 simulation called objfunction
 INFO:root:The 6 iteration 2 simulation called objfunction
+INFO:root:The 6 iteration 1 simulation called objfunction
+INFO:root:The 6 iteration 4 simulation called objfunction
+INFO:root:The 6 iteration 6 simulation called objfunction
 INFO:root:The 6 iteration 3 simulation called objfunction
-INFO:root:6 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:6 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:6 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:6 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:6 iteration 3 evaluation: finished simulation
-INFO:root:6 iteration 0 evaluation: finished simulation
-INFO:root:6 iteration 2 evaluation: finished simulation
-INFO:root:6 iteration 1 evaluation: finished simulation
-INFO:root:6 iteration 1 evaluation: finished calculating the objection function
-INFO:root:6 iteration 0 evaluation: finished calculating the objection function
-INFO:root:6 iteration 3 evaluation: finished calculating the objection function
-INFO:root:6 iteration 2 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [5.5732295770489258e-05, 4.3843639256842936e-05] @ [ 0.94562  0.10072  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [0.00013779078412028248, 8.0305069230451231e-05] @ [ 0.61505  0.57555  0.00021  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [5.5732295770489258e-05, 4.3843639256842936e-05] @ [ 0.94562  0.97119  0.00001  0.00093]
-INFO:dyno_pods.sot_sync_strategies:True [8.6983174606874617e-05, 6.8430963678712438e-05] @ [ 0.3542   0.64259  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:Reducing sigma
-INFO:root:The 7 iteration 0 simulation called objfunction
-INFO:root:The 7 iteration 1 simulation called objfunction
+INFO:root:The 6 iteration 8 simulation called objfunction
+INFO:root:The 6 iteration 7 simulation called objfunction
+INFO:root:The 6 iteration 5 simulation called objfunction
+INFO:root:The 6 iteration 10 simulation called objfunction
+INFO:root:The 6 iteration 9 simulation called objfunction
+INFO:root:The 6 iteration 11 simulation called objfunction
+INFO:root:The 6 iteration 12 simulation called objfunction
+INFO:root:The 6 iteration 14 simulation called objfunction
+INFO:root:The 6 iteration 13 simulation called objfunction
+INFO:root:The 6 iteration 16 simulation called objfunction
+INFO:root:The 6 iteration 15 simulation called objfunction
+INFO:root:The 6 iteration 18 simulation called objfunction
+INFO:root:The 6 iteration 17 simulation called objfunction
+INFO:root:The 6 iteration 19 simulation called objfunction
+INFO:root:The 6 iteration 20 simulation called objfunction
+INFO:root:The 6 iteration 22 simulation called objfunction
+INFO:root:The 6 iteration 21 simulation called objfunction
+INFO:root:The 6 iteration 23 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-5.784380730869092] @ [ 0.08443 18.75422 -0.62876 -0.76146 12.21454 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.849540085545033] @ [  0.08443  -6.62387   8.62906  -0.76146   9.0716   -0.57805   1.3496  -12.83163  -0.15579  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.12860535724453] @ [ 0.08443 -0.65513 -0.62876 -0.76146 -0.68479 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.121395259780666] @ [ 0.08443  0.8563  -0.62876 -0.76146 -1.22459 -0.2796   1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-4.6591829258956174] @ [ 11.81932   1.35541   9.73578  -0.76146  -1.22459  18.33364   1.3496   -1.03174 -10.35741  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.878649953428616] @ [  0.08443   1.35541  -0.62876 -14.59893  11.40423  -0.57805   1.3496   -1.03174  -0.15579  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.037043181224835] @ [ 0.08443  1.35541 -0.62876 -0.76146  0.04053 -0.57805  1.3496  -1.03174  0.15364 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.080806336307564] @ [ 0.08443  0.76674 -0.62876 -0.76146 -1.12218 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.582299596942997] @ [ 1.80332  1.35541 -0.62876 -0.76146  9.36312 -0.57805 12.48354 -1.03174 15.43657 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.429090229697176] @ [ 0.08443  1.35541  4.36754 11.14355 11.93437 -0.57805  1.3496  -1.03174  4.58326 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.802532472781674] @ [ 0.08443  1.35541 -0.62876 -0.76146 -0.55356 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.984500415013922] @ [ 0.08443  0.98537 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.581643186821986] @ [ 9.24855  1.35541 -0.62876 -0.76146 -1.22459 13.55523 -9.52935 -1.03174 11.38722 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-9.685676038469476] @ [ 0.08443  1.35541 -0.62876 -0.76146  8.79357 -0.57805 -8.75352 -1.03174 -3.26809 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.82091519186643] @ [ 0.08443  1.35541 -0.62876 -0.76146 -1.22459  0.20977  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.88879392854795] @ [ 0.2143   0.69112 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-5.944909960818008] @ [ 0.08443 17.78029 -0.62876 11.78389 -1.22459 -0.57805  1.3496  -1.03174 -4.24783 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.019452646044344] @ [ 0.08443  1.35541 -0.62876 -6.8008  -1.22459 -0.57805 17.34307 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.96601118398634] @ [ 0.08443  1.35541 -0.62876 -0.76146 -1.22459 -0.57805  0.42183 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.992646832301624] @ [ 0.08443  0.84393 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.12663646653448] @ [ 0.08443 -8.36928 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174 -0.15579 19.92629]
+INFO:dyno_pods.sot_sync_strategies:True [-7.5125538791655355] @ [  5.12742   1.35541  -0.62876 -14.16969  -1.22459  -0.57805  -8.48669  -1.03174  -0.15579  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.856574243271925] @ [ 0.08443  1.35541 -0.62876 -0.76146 -1.22459 -0.1549   1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.99770437990182] @ [ 0.08443  0.91696 -0.62876 -0.76146 -1.22459 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
 INFO:root:The 7 iteration 2 simulation called objfunction
+INFO:root:The 7 iteration 0 simulation called objfunction
+INFO:root:The 7 iteration 4 simulation called objfunction
 INFO:root:The 7 iteration 3 simulation called objfunction
-INFO:root:7 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:7 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:7 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:7 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:7 iteration 1 evaluation: finished simulation
-INFO:root:7 iteration 0 evaluation: finished simulation
-INFO:root:7 iteration 2 evaluation: finished simulation
-INFO:root:7 iteration 3 evaluation: finished simulation
-INFO:root:7 iteration 3 evaluation: finished calculating the objection function
-INFO:root:7 iteration 2 evaluation: finished calculating the objection function
-INFO:root:7 iteration 0 evaluation: finished calculating the objection function
-INFO:root:7 iteration 1 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [6.7370332395280612e-05, 5.3018039492897091e-05] @ [ 0.72483  0.64259  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [6.3661802681707952e-05, 5.0089384525520313e-05] @ [ 0.79532  0.73512  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [6.302284411400853e-05, 4.9597034005981787e-05] @ [ 0.80719  0.67671  0.00001  0.00276]
-INFO:dyno_pods.sot_sync_strategies:True [6.1842983478463214e-05, 4.8662497607933804e-05] @ [ 0.82974  0.64259  0.00001  0.00349]
-INFO:dyno_pods.sot_sync_strategies:Reducing sigma
+INFO:root:The 7 iteration 1 simulation called objfunction
+INFO:root:The 7 iteration 5 simulation called objfunction
+INFO:root:The 7 iteration 8 simulation called objfunction
+INFO:root:The 7 iteration 10 simulation called objfunction
+INFO:root:The 7 iteration 12 simulation called objfunction
+INFO:root:The 7 iteration 6 simulation called objfunction
+INFO:root:The 7 iteration 9 simulation called objfunction
+INFO:root:The 7 iteration 13 simulation called objfunction
+INFO:root:The 7 iteration 11 simulation called objfunction
+INFO:root:The 7 iteration 14 simulation called objfunction
+INFO:root:The 7 iteration 16 simulation called objfunction
+INFO:root:The 7 iteration 7 simulation called objfunction
+INFO:root:The 7 iteration 15 simulation called objfunction
+INFO:root:The 7 iteration 17 simulation called objfunction
+INFO:root:The 7 iteration 18 simulation called objfunction
+INFO:root:The 7 iteration 20 simulation called objfunction
+INFO:root:The 7 iteration 19 simulation called objfunction
+INFO:root:The 7 iteration 22 simulation called objfunction
+INFO:root:The 7 iteration 21 simulation called objfunction
+INFO:root:The 7 iteration 23 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-5.649631772280953] @ [  0.08443  -0.65513  -0.62876  18.71527  -0.68479   7.24049   1.3496  -10.1986   -0.15579   5.08019]
+INFO:dyno_pods.sot_sync_strategies:True [-9.996587086351779] @ [ 0.08443 -0.65513 -0.62876 -0.76146  6.29378 -0.57805  1.3496  -1.03174 -0.15579 10.4543 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.21032656609337] @ [ 0.08443 -0.65513 -0.62876 -0.76146  1.39186 -0.57805  1.3496  -1.03174 -0.15579  2.08312]
+INFO:dyno_pods.sot_sync_strategies:True [-18.391997550851638] @ [ 0.08443 -0.65513 -0.62876 -0.76146  1.02928 -0.04329  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.255133829027943] @ [  5.48628  -0.65513  -0.62876  -0.76146  -0.68479 -14.62474   1.3496  -12.22506  -0.15579   5.03356]
+INFO:dyno_pods.sot_sync_strategies:True [-7.7496371195436575] @ [  0.08443  -0.65513  12.49229  -0.76146  -0.68479  -0.57805   1.3496   -1.03174 -10.64935  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.071905268134927] @ [ 0.08443 -0.65513 -0.62876 -0.76146 -0.68479 -0.57805 -0.58905 -1.03174 -0.15579  1.38758]
+INFO:dyno_pods.sot_sync_strategies:True [-18.153597263251374] @ [ 0.08443 -0.65513 -0.62876 -0.76146  0.93901 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.259435706033899] @ [  0.08443  -0.65513  -0.62876  -0.76146  12.08815  -0.57805   1.3496   -1.03174  -0.15579 -14.12923]
+INFO:dyno_pods.sot_sync_strategies:True [-8.222492538954885] @ [  0.08443  -0.65513   6.5151   -0.76146  -0.68479   8.40913 -11.4078   -1.03174  -0.15579  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.49937332636911] @ [ 0.08443 -0.65513 -0.62876 -0.76146 -0.68479 -0.57805 -0.51119 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.074177716783417] @ [ 0.08443 -0.65513 -0.62876 -0.76146  1.09378 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.500815810089109] @ [  0.08443  -0.65513  -0.62876  -0.76146  -0.68479  -0.57805 -14.7197   -1.03174  -0.15579 -13.59567]
+INFO:dyno_pods.sot_sync_strategies:True [-8.773642021371016] @ [ 0.08443 -0.65513  8.68008 -0.76146 11.52855 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.847761631244737] @ [ 0.08443 -0.65513  0.8561  -0.76146 -0.68479 -0.57805  1.3496  -1.03174 -0.15579  1.37085]
+INFO:dyno_pods.sot_sync_strategies:True [-18.123398933722182] @ [ 0.08443 -0.65513 -0.62876 -0.76146  1.02159 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.657446836839084] @ [ 8.57217 -0.65513 -8.45812 14.88303 -0.68479 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-8.127069223972457] @ [  0.08443  -0.65513  -0.62876  -0.76146  -0.68479  10.24376   1.3496   -1.03174 -12.21404  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-17.368787979432764] @ [ 0.08443 -0.65513 -0.62876 -0.76146  1.98277 -0.57805  1.3496  -1.03174  0.58342 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.156400006661354] @ [ 0.08443 -0.65513 -0.62876 -0.76146  0.83839 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.07642650666713] @ [  0.08443  -0.65513  -0.62876  -0.76146  -0.68479  -0.57805 -10.01405  -1.03174  17.54252  -8.02052]
+INFO:dyno_pods.sot_sync_strategies:True [-9.96915407418449] @ [ 0.08443 -0.65513 -0.62876  8.70463 -0.68479 -0.57805 -8.95221 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.672899175555063] @ [ 0.08443 -0.65513 -0.62876 -0.76146 -0.68479  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.158192395336837] @ [ 0.08443 -0.65513 -0.62876 -0.76146  0.90444 -0.57805  1.3496  -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:Increasing sigma
 INFO:root:The 8 iteration 0 simulation called objfunction
-INFO:root:The 8 iteration 1 simulation called objfunction
 INFO:root:The 8 iteration 2 simulation called objfunction
+INFO:root:The 8 iteration 1 simulation called objfunction
+INFO:root:The 8 iteration 8 simulation called objfunction
+INFO:root:The 8 iteration 6 simulation called objfunction
+INFO:root:The 8 iteration 9 simulation called objfunction
+INFO:root:The 8 iteration 4 simulation called objfunction
 INFO:root:The 8 iteration 3 simulation called objfunction
-INFO:root:8 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:8 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:8 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:8 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:8 iteration 2 evaluation: finished simulation
-INFO:root:8 iteration 3 evaluation: finished simulation
-INFO:root:8 iteration 1 evaluation: finished simulation
-INFO:root:8 iteration 0 evaluation: finished simulation
-INFO:root:8 iteration 3 evaluation: finished calculating the objection function
-INFO:root:8 iteration 0 evaluation: finished calculating the objection function
-INFO:root:8 iteration 2 evaluation: finished calculating the objection function
-INFO:root:8 iteration 1 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [5.5732295770489258e-05, 4.3843639256842936e-05] @ [ 0.94562  0.5211   0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [5.3549028790921793e-05, 4.2142553706101203e-05] @ [ 0.98645  0.74539  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [5.8068419515438657e-05, 4.5700223653736569e-05] @ [ 0.90088  0.71531  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [5.9358237088561894e-05, 4.6713282126255658e-05] @ [ 0.87642  0.64259  0.00001  0.00196]
-INFO:root:The 9 iteration 0 simulation called objfunction
-INFO:root:The 9 iteration 1 simulation called objfunction
-INFO:root:The 9 iteration 2 simulation called objfunction
-INFO:root:9 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:The 9 iteration 3 simulation called objfunction
-INFO:root:9 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:9 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:9 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:9 iteration 0 evaluation: finished simulation
-INFO:root:9 iteration 2 evaluation: finished simulation
-INFO:root:9 iteration 3 evaluation: finished simulation
-INFO:root:9 iteration 1 evaluation: finished simulation
-INFO:root:9 iteration 3 evaluation: finished calculating the objection function
-INFO:root:9 iteration 2 evaluation: finished calculating the objection function
-INFO:root:9 iteration 1 evaluation: finished calculating the objection function
-INFO:root:9 iteration 0 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [5.3549028790921793e-05, 4.2142553706101203e-05] @ [ 0.98645  0.86039  0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [5.5808661100371087e-05, 4.3895844527174713e-05] @ [ 0.94426  0.8035   0.00001  0.0026 ]
-INFO:dyno_pods.sot_sync_strategies:True [5.3161508355215936e-05, 4.1815173189600653e-05] @ [ 0.99414  0.68306  0.00001  0.00271]
-INFO:dyno_pods.sot_sync_strategies:True [5.3549028790921793e-05, 4.2142553706101203e-05] @ [ 0.98645  0.61406  0.00001  0.0026 ]
-INFO:root:The 10 iteration 0 simulation called objfunction
-INFO:root:The 10 iteration 1 simulation called objfunction
-INFO:root:The 10 iteration 2 simulation called objfunction
-INFO:root:The 10 iteration 3 simulation called objfunction
-INFO:root:10 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:10 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:10 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:10 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:10 iteration 0 evaluation: finished simulation
-INFO:root:10 iteration 3 evaluation: finished simulation
-INFO:root:10 iteration 2 evaluation: finished simulation
-INFO:root:10 iteration 1 evaluation: finished simulation
-INFO:root:10 iteration 0 evaluation: finished calculating the objection function
-INFO:root:10 iteration 3 evaluation: finished calculating the objection function
-INFO:root:10 iteration 2 evaluation: finished calculating the objection function
-INFO:root:10 iteration 1 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [5.8397053434461991e-05, 4.5957689764813253e-05] @ [ 0.89447  0.58552  0.00001  0.00271]
-INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.5525   0.00001  0.00271]
-INFO:dyno_pods.sot_sync_strategies:True [5.3161508355215936e-05, 4.1815173189600653e-05] @ [ 0.99414  0.79597  0.00001  0.00251]
-INFO:dyno_pods.sot_sync_strategies:True [5.5013749525157011e-05, 4.3287420009362902e-05] @ [ 0.95871  0.57739  0.00001  0.00287]
-INFO:dyno_pods.sot_sync_strategies:Reducing sigma
-INFO:root:The 11 iteration 0 simulation called objfunction
-INFO:root:The 11 iteration 1 simulation called objfunction
-INFO:root:The 11 iteration 2 simulation called objfunction
-INFO:root:The 11 iteration 3 simulation called objfunction
-INFO:root:11 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:11 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:11 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:11 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:11 iteration 0 evaluation: finished simulation
-INFO:root:11 iteration 2 evaluation: finished simulation
-INFO:root:11 iteration 3 evaluation: finished simulation
-INFO:root:11 iteration 1 evaluation: finished simulation
-INFO:root:11 iteration 3 evaluation: finished calculating the objection function
-INFO:root:11 iteration 1 evaluation: finished calculating the objection function
-INFO:root:11 iteration 2 evaluation: finished calculating the objection function
-INFO:root:11 iteration 0 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.47754  0.00001  0.00246]
-INFO:dyno_pods.sot_sync_strategies:True [5.3659187039076931e-05, 4.2225489799902693e-05] @ [ 0.98435  0.51473  0.00001  0.00269]
-INFO:dyno_pods.sot_sync_strategies:True [5.6557022870950367e-05, 4.4520443902987001e-05] @ [ 0.92932  0.5525   0.00001  0.00271]
-INFO:dyno_pods.sot_sync_strategies:True [5.4625809841666037e-05, 4.2992134711894293e-05] @ [ 0.96586  0.5525   0.00001  0.00248]
-INFO:dyno_pods.sot_sync_strategies:Reducing sigma
-INFO:root:The 12 iteration 0 simulation called objfunction
-INFO:root:The 12 iteration 1 simulation called objfunction
-INFO:root:The 12 iteration 2 simulation called objfunction
-INFO:root:12 iteration 0 evaluation: finished modify the coefficient file
-INFO:root:The 12 iteration 3 simulation called objfunction
-INFO:root:12 iteration 1 evaluation: finished modify the coefficient file
-INFO:root:12 iteration 2 evaluation: finished modify the coefficient file
-INFO:root:12 iteration 3 evaluation: finished modify the coefficient file
-INFO:root:12 iteration 3 evaluation: finished simulation
-INFO:root:12 iteration 1 evaluation: finished simulation
-INFO:root:12 iteration 2 evaluation: finished simulation
-INFO:root:12 iteration 0 evaluation: finished simulation
-INFO:root:12 iteration 3 evaluation: finished calculating the objection function
-INFO:root:12 iteration 1 evaluation: finished calculating the objection function
-INFO:root:12 iteration 2 evaluation: finished calculating the objection function
-INFO:root:12 iteration 0 evaluation: finished calculating the objection function
-INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.58393  0.00001  0.00271]
-INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.53223  0.00001  0.00271]
-INFO:dyno_pods.sot_sync_strategies:True [5.3918764852309581e-05, 4.2416034587210891e-05] @ [ 0.97973  0.57281  0.00001  0.00271]
-INFO:dyno_pods.sot_sync_strategies:True [5.3159987015939781e-05, 4.1813335239395218e-05] @ [ 0.99414  0.56713  0.00001  0.00259]
+INFO:root:The 8 iteration 10 simulation called objfunction
+INFO:root:The 8 iteration 7 simulation called objfunction
+INFO:root:The 8 iteration 11 simulation called objfunction
+INFO:root:The 8 iteration 12 simulation called objfunction
+INFO:root:The 8 iteration 14 simulation called objfunction
+INFO:root:The 8 iteration 13 simulation called objfunction
+INFO:root:The 8 iteration 5 simulation called objfunction
+INFO:root:The 8 iteration 16 simulation called objfunction
+INFO:root:The 8 iteration 15 simulation called objfunction
+INFO:root:The 8 iteration 17 simulation called objfunction
+INFO:root:The 8 iteration 18 simulation called objfunction
+INFO:root:The 8 iteration 20 simulation called objfunction
+INFO:root:The 8 iteration 22 simulation called objfunction
+INFO:root:The 8 iteration 19 simulation called objfunction
+INFO:root:The 8 iteration 21 simulation called objfunction
+INFO:root:The 8 iteration 23 simulation called objfunction
+INFO:dyno_pods.sot_sync_strategies:True [-4.914149956323971] @ [ 0.08443 12.09235 16.01371 -0.76146  9.59975  0.26836  0.42905 14.10637 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-8.220322668508274] @ [  0.08443   6.20773  -0.62876  -0.76146  -0.68479   0.26836  -5.27913 -13.46092  -0.15579  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-19.034944386674617] @ [ 0.08443  0.15313 -0.31538 -0.76146 -0.68479  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.821414496664246] @ [ 0.08443 -0.65513 -0.62876 -0.76146  0.27018  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-4.2751066061856955] @ [15.59436 -0.65513 -0.62876 -0.76146 15.16716 13.13419  0.42905 -1.03174 12.0918  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.133877480154742] @ [ 17.60513  -0.65513  -0.62876  -0.76146  -0.68479 -10.48729   0.42905  -1.03174  -0.15579  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.676074748579204] @ [ 0.08443 -0.65513  0.5652  -0.76146 -0.68479  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.83730180111547] @ [ 0.08443  0.23816 -0.62876 -0.76146 -0.68479  0.26836  0.42905 -1.03174  0.24389 -0.37905]
+INFO:dyno_pods.sot_sync_strategies:True [-5.358958791018226] @ [ 7.61401 -7.6427  -0.62876 -0.76146 12.86972 -8.86885  0.01667 -1.03174 14.67071 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.922520067086564] @ [ 0.08443 -0.65513 -0.62876 -0.76146 -0.68479  0.26836  0.42905 -1.03174 13.32082  9.95089]
+INFO:dyno_pods.sot_sync_strategies:True [-18.397599283488116] @ [-0.55635 -0.65513 -0.62876 -0.76146 -0.68479  0.26836 -0.56205 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.907974089852917] @ [ 0.08443 -0.65513 -0.62876 -0.76146  0.14578  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.055096703416533] @ [14.68228 13.56943 -0.62876 -0.76146 -7.11252  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-9.077708035392579] @ [ 4.8012  -0.65513 -0.62876 -0.76146 -0.68479  0.26836 -8.74601  6.19242 -7.31903 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.443459809698087] @ [-0.85271 -0.65513 -0.62876 -0.76146 -0.68479  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.873912322264218] @ [ 0.08443 -0.65513 -0.62876 -0.76146  0.1984   0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.06418061745653] @ [-13.5921   -0.65513  -0.62876  -0.76146  -1.97784   0.26836   0.42905  -9.21222 -12.68664  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-7.363829465604438] @ [  0.08443  -0.65513  -0.62876  -0.76146  -0.68479   0.26836  10.30558 -14.2956   -0.15579  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.7071798544376] @ [ 0.08443  0.45388 -0.62876 -0.76146 -0.68479  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.89323645956072] @ [ 0.08443 -0.65513 -0.62876 -0.76146  0.16969  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-6.544618753943602] @ [  0.08443 -11.54661  -0.78495 -12.50076  -0.68479  -5.50392   0.42905  -1.03174  -7.35819  -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-12.013054963022762] @ [ 0.08443 -0.65513 -0.62876 -0.76146 -0.68479  0.26836 -3.65016  8.28163 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.914761106400483] @ [ 0.08443  0.13964 -0.62876 -0.76146 -0.68479  0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]
+INFO:dyno_pods.sot_sync_strategies:True [-18.854516715981692] @ [ 0.08443 -0.65513 -0.62876 -0.76146  0.2255   0.26836  0.42905 -1.03174 -0.15579 -0.4713 ]

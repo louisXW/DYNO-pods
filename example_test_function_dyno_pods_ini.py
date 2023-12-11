@@ -87,10 +87,19 @@ def main():
     # (4) Adaptive sampling
     adapt_samp = CandidateDYCORS(data=data, numcand=1000 * data.dim)
 
+    # (5) Use predefined initial experiment design
+    #'./ini_exp/ini_fxs.txt' contains a list of decision variables in predefined experiments design
+    # The number of samples should be multples of nsamples (i.e., the number of parallel processors used)
+    # (in this case 24 samples were used)
+    # './ini_exp/ini_xs.txt' contains the list of objective functions for the predefined experiments design
+    # In this case there are two objectives for each of the 24 samples
     ini_vals = np.loadtxt('./ini_exp/ini_fxs.txt')
     ini_xs = np.loadtxt('./ini_exp/ini_xs.txt')
 
-    # (5) Use the multiprocessing-based sychronous strategy without non-bound constraints
+    # (6) Use the multiprocessing-based sychronous strategy without non-bound constraints
+    #if use predefined initial experiment design need to specify the ini_xs variable (list of decision
+    # variables of the initial experiment design) as shown below;
+    # ini_vals (list of objective function values) is not mandatory
     strategy = SyncStrategyNoConstraintsDYNOPODS(obj_func,
                                                 worker_id=0, data=data, maxeval=maxeval, nsamples=nsamples,
                                                 exp_design=exp_des, response_surface=surrogate,

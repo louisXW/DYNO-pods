@@ -52,18 +52,18 @@ You may also want to compile the open source on your platform. The instruction l
 
 If you use DYNO-pods, please cite the DYNO paper and the original PODS paper: 
 
-Xia, W., Akhtar, T., and Shoemaker, C. A.: A Novel Objective Function DYNO for Automatic Multi-variable Calibration and Application to Assess Effects of Velocity versus Temperature Data for 3D Lake Models Calibration, Hydrol. Earth Syst. Sci. Discuss. [preprint], https://doi.org/10.5194/hess-2021-601, in review, 2021.
+Xia, W., Akhtar, T., and Shoemaker, A.C. (2022): A novel objective function DYNO for automatic multivariable calibration of 3D lake models. Hydrology and Earth System Sciences, 26(13), 3651-3671. https://doi.org/10.5194/hess-26-3651-2022.
 
 ```
-@Article{hess-2021-601,
-AUTHOR = {Xia, W. and Akhtar, T. and Shoemaker, C. A.},
-TITLE = {A Novel Objective Function DYNO for Automatic Multi-variable Calibration and Application to Assess Effects of Velocity versus Temperature Data for 3D Lake Models Calibration},
-JOURNAL = {Hydrology and Earth System Sciences Discussions},
-VOLUME = {2021},
-YEAR = {2021},
-PAGES = {1--24},
-URL = {https://hess.copernicus.org/preprints/hess-2021-601/},
-DOI = {10.5194/hess-2021-601}
+@article{xia2022novel,
+  title={A novel objective function DYNO for automatic multivariable calibration of 3D lake models},
+  author={Xia, Wei and Akhtar, Taimoor and Shoemaker, Christine A},
+  journal={Hydrology and Earth System Sciences},
+  volume={26},
+  number={13},
+  pages={3651--3671},
+  year={2022},
+  publisher={Copernicus GmbH}
 }
 ```
 
